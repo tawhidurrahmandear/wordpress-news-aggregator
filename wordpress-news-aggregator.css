@@ -1,0 +1,57 @@
+ /* WordPress News Aggregator */
+ /* developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com */
+ /* Live Preview available at https://tawhidurrahmandear.github.io/wordpress-news-aggregator/ */
+
+
+
+/* WordPress News Aggregator Styles */
+ 
+body { 
+	   font-family: Tahoma, sans-serif;
+	   font-size: 15px;
+	   font-weight: bold;
+	   max-width: 800px; 
+	   margin: 0 auto; 
+	   padding: 20px; 
+	   }
+	   
+.post { 
+		padding: 15px; 
+		border-bottom: 1px solid #eee; 
+}
+        
+.post-title { 
+		font-size: 16px; 
+		margin: 0 0 5px 0; 
+		}
+		
+.post-title a { 
+	   font-family:  font-family: Tahoma, sans-serif; 
+		color: #0066cc; 
+		text-decoration: none; 
+		}
+		
+.post-meta { 
+		color: #666; 
+		font-size: 14px; 
+		}
+		
+.pagination { 
+		margin: 20px 0; 
+		text-align: center; 
+		}
+		
+.page-btn { 
+		padding: 8px 15px; 
+		margin: 0 5px; 
+		border: 1px solid #ddd; 
+		background: white; 
+		cursor: pointer; 
+		}
+		
+.current-page { 
+		background: #0066cc; 
+		color: white; 
+		border-color: #0066cc; 
+		}
+
