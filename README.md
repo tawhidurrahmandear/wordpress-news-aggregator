@@ -1,2 +1,6 @@
-# wordpress-news-aggregator
-WordPress News Aggregator 🌐 Live Preview at https://tawhidurrahmandear.github.io/wordpress-news-aggregator/
+# [WordPress News Aggregator](https://tawhidurrahmandear.github.io/wordpress-news-aggregator/) <br>
+HTML + JavaScript + CSS <br>
+* developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com <br>
+* Live Preview available at https://tawhidurrahmandear.github.io/wordpress-news-aggregator/ <br>
+
+* Released under GPL-3.0 license on Github at https://github.com/tawhidurrahmandear/wordpress-news-aggregator 
