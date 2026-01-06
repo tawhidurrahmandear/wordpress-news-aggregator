@@ -1,57 +1,98 @@
  /* WordPress News Aggregator */
  /* developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com */
- /* Live Preview available at https://tawhidurrahmandear.github.io/wordpress-news-aggregator/ */
+ /* Live Preview available at https://www.devilhunter.net/2026/01/wordpress-news-aggregator.html */
 
 
 
 /* WordPress News Aggregator Styles */
- 
-body { 
-	   font-family: Tahoma, sans-serif;
-	   font-size: 15px;
-	   font-weight: bold;
-	   max-width: 800px; 
-	   margin: 0 auto; 
-	   padding: 20px; 
-	   }
-	   
-.post { 
-		padding: 15px; 
-		border-bottom: 1px solid #eee; 
-}
-        
-.post-title { 
-		font-size: 16px; 
-		margin: 0 0 5px 0; 
-		}
-		
-.post-title a { 
-	   font-family:  font-family: Tahoma, sans-serif; 
-		color: #0066cc; 
-		text-decoration: none; 
-		}
-		
-.post-meta { 
-		color: #666; 
-		font-size: 14px; 
-		}
-		
-.pagination { 
-		margin: 20px 0; 
-		text-align: center; 
-		}
-		
-.page-btn { 
-		padding: 8px 15px; 
-		margin: 0 5px; 
-		border: 1px solid #ddd; 
-		background: white; 
-		cursor: pointer; 
-		}
-		
-.current-page { 
-		background: #0066cc; 
-		color: white; 
-		border-color: #0066cc; 
-		}
 
+    .pagination {
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .page-btn {
+        padding: 8px 12px;
+        margin: 0 2px;
+        border: 1px solid #ddd;
+        background: white;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    
+    .page-btn:hover:not(:disabled):not(.current-page) {
+        background: #0066FF;
+        color: white;
+        border-color: #0066FF;
+    }
+    
+    .page-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    
+    .page-btn.current-page {
+        background: #0066FF;
+        color: white;
+        border-color: #0066FF;
+    }
+    
+    .wordpress-post {
+        margin: 30px 0;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+        text-align:justify;
+    }
+    
+    .wordpress-post-title {
+        margin: 0 0 15px 0;
+        font-size: 1.5em;
+    }
+    
+    .wordpress-post-title a {
+        text-decoration: none;
+    }
+    
+    .wordpress-post-title a:hover {
+        text-decoration: underline;
+    }
+    
+    .wordpress-post-thumbnail {
+        float: left;
+        margin: 0 20px 10px 0;
+        max-width: 150px;
+        height: auto;
+    }
+    
+    .wordpress-post-thumbnail img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 4px;
+    }
+    
+    .wordpress-post-excerpt {
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+    
+    .wordpress-post-read-more {
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .wordpress-post-read-more:hover {
+        text-decoration: underline;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
